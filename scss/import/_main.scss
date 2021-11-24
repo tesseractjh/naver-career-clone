@@ -1,0 +1,8 @@
+.main {
+  @include min-width;
+
+  &-section {
+    width: 980px;
+    margin: 35px auto 0;
+  }
+}

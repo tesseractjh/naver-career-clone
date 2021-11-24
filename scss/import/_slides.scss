@@ -1,0 +1,23 @@
+.slide {
+  height: 412px;
+  
+  &-left {
+    @include flex(center, center);
+    height: 100%;
+    background: url('../images/slide01.jpg') no-repeat;
+    background-size: 980px 412px;
+
+    &-txt {
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      color: white;
+    }
+
+    &-normal {
+      display: block;
+      margin-bottom: 9px;
+      font-weight: 400;
+    }
+  }
+}

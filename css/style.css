@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("../fonts/NanumBarunGothic.otf");
+}
+* {
+  font-family: "NanumBarunGothic", sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.header {
+  min-width: 980px;
+  height: 63px;
+  border-bottom: 1px solid #dcdde0;
+}
+
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  width: 980px;
+  padding-top: 23px;
+  margin: 0 auto;
+}
+.gnb-util {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 244px;
+}
+
+.main {
+  min-width: 980px;
+}
+.main-section {
+  width: 980px;
+  margin: 35px auto 0;
+}
+
+.sprite-gnb-logo {
+  width: 170px;
+  height: 18px;
+  overflow: hidden;
+  background: url("../images/sprite.png") no-repeat;
+  background-position: 0px 0px;
+  vertical-align: top;
+}
+.sprite-my-app {
+  width: 72px;
+  height: 17px;
+  overflow: hidden;
+  background: url("../images/sprite.png") no-repeat;
+  background-position: 0px -76px;
+  vertical-align: top;
+}
+.sprite-app-inqu {
+  width: 70px;
+  height: 17px;
+  overflow: hidden;
+  background: url("../images/sprite.png") no-repeat;
+  background-position: -82px -76px;
+  vertical-align: top;
+}
+.sprite-lang-en {
+  width: 50px;
+  height: 13px;
+  overflow: hidden;
+  background: url("../images/sprite.png") no-repeat;
+  background-position: -61px -51px;
+  vertical-align: top;
+}
+
+.slide {
+  height: 412px;
+}
+.slide-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  background: url("../images/slide01.jpg") no-repeat;
+  background-size: 980px 412px;
+}
+.slide-left-txt {
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+  color: white;
+}
+.slide-left-normal {
+  display: block;
+  margin-bottom: 9px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */

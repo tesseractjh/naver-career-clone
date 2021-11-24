@@ -1,0 +1,19 @@
+@mixin min-width {
+  min-width: 980px;
+}
+
+@mixin flex($justify: stretch, $align: stretch, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin sprite($width, $height, $x, $y) {
+  width: $width + px;
+  height: $height + px;
+  overflow: hidden;
+  background: url('../images/sprite.png') no-repeat;
+  background-position: $x + px $y + px;
+  vertical-align: top;
+}

@@ -1,0 +1,17 @@
+.sprite {
+  &-gnb-logo {
+    @include sprite(170, 18, 0, 0);
+  }
+
+  &-my-app {
+    @include sprite(72, 17, 0, -76);
+  }
+  
+  &-app-inqu {
+    @include sprite(70, 17, -82, -76);
+  }
+  
+  &-lang-en {
+    @include sprite(50, 13, -61, -51);
+  }
+}

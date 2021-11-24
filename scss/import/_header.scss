@@ -1,0 +1,17 @@
+.header {
+  @include min-width;
+  height: 63px;
+  border-bottom: 1px solid #dcdde0;
+}
+
+.gnb {
+  @include flex(space-between);
+  width: 980px;
+  padding-top: 23px;
+  margin: 0 auto;
+
+  &-util {
+    @include flex(space-between, center);
+    width: 244px;
+  }
+}
