@@ -143,6 +143,7 @@ body {
   background: url("../images/sprite01.png") no-repeat;
   background-position: 0px 0px;
   vertical-align: top;
+  cursor: pointer;
 }
 .sprite-my-app {
   width: 72px;
@@ -151,6 +152,7 @@ body {
   background: url("../images/sprite01.png") no-repeat;
   background-position: 0px -76px;
   vertical-align: top;
+  cursor: pointer;
 }
 .sprite-app-inqu {
   width: 70px;
@@ -159,6 +161,7 @@ body {
   background: url("../images/sprite01.png") no-repeat;
   background-position: -82px -76px;
   vertical-align: top;
+  cursor: pointer;
 }
 .sprite-lang-en {
   width: 50px;
@@ -167,6 +170,7 @@ body {
   background: url("../images/sprite01.png") no-repeat;
   background-position: -61px -51px;
   vertical-align: top;
+  cursor: pointer;
 }
 
 .slide {
@@ -217,6 +221,7 @@ body {
   background: url("../images/sprite02.png") no-repeat;
   background-position: -663px 0px;
   vertical-align: top;
+  cursor: pointer;
   content: "";
   margin-left: 7px;
 }

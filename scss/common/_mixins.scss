@@ -12,4 +12,5 @@
   background: url('../images/sprite0' + $num + '.png') no-repeat;
   background-position: $x + px $y + px;
   vertical-align: top;
+  cursor: pointer;
 }
