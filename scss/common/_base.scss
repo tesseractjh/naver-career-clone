@@ -57,6 +57,7 @@ button {
 	border: 0;
 	padding: 0;
 	background: none;
+	cursor: pointer;
 }
 a {
 	text-decoration: none;
@@ -73,4 +74,7 @@ a {
 }
 * {
 	font-family: 'NanumBarunGothic', sans-serif;
+}
+body {
+  background-color: #eff0f2;
 }

@@ -1,7 +1,8 @@
 .header {
-  @include min-width;
+  min-width: $min-width;
   height: 63px;
   border-bottom: 1px solid #dcdde0;
+  background-color: #ffffff;
 }
 
 .gnb {

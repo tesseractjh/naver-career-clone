@@ -1,5 +1,5 @@
 .main {
-  @include min-width;
+  min-width: $min-width;
 
   &-section {
     width: 980px;
