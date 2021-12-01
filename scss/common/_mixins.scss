@@ -1,8 +1,25 @@
-@mixin flex($justify: stretch, $align: stretch, $direction: row) {
-  display: flex;
-  justify-content: $justify;
-  align-items: $align;
-  flex-direction: $direction;
+// @mixin flex($justify: flex-start, $align: stretch, $direction: row) {
+//   display: flex;
+//   justify-content: $justify;
+//   align-items: $align;
+//   flex-direction: $direction;
+// }
+
+@mixin flex($justify: false, $align: false, $direction: false, $is-inline: false) {
+  @if ($is-inline) {
+    display: inline-flex;
+  } @else {
+    display: flex;
+  }
+  @if ($justify) {
+    justify-content: $justify;
+  }
+  @if ($align) {
+    align-items: $align;
+  }
+  @if ($direction) {
+    flex-direction: $direction;
+  }
 }
 
 @mixin sprite($width, $height, $x, $y, $num: 1) {

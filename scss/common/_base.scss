@@ -74,7 +74,18 @@ a {
 }
 * {
 	font-family: 'NanumBarunGothic', sans-serif;
+  box-sizing: border-box;
 }
 body {
   background-color: #eff0f2;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
 }

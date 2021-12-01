@@ -14,4 +14,8 @@
   &-lang-en {
     @include sprite(50, 13, -61, -51);
   }
+
+  &-rounded {
+    @include sprite(30, 22, -50, -400, 2);
+  }
 }

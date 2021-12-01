@@ -4,5 +4,36 @@
   &-section {
     width: 980px;
     margin: 35px auto 0;
+
+    &-lnb {
+      background-color: #ffffff;
+    }
+  }
+}
+
+.lnb {
+  &-list {
+    @include flex;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  &-item {
+    @include flex(center, center);
+    flex: 1;
+    padding: 56px 0 55px;
+    border-left: 1px solid #e6e6e6;
+  }
+
+  &-link {
+    font-size: 21px;
+  }
+
+  &-value {
+    @include flex(center, center, false, true);
+    padding-top: 1px;
+    margin-left: 9px;
+    font-size: 16px;
+    color: #ffffff;
   }
 }
